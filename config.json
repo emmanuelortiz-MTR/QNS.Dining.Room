@@ -3,126 +3,93 @@
     {
       "id": "start",
       "title": {
-        "en": "Locate the Main Console for the 3rd Floor Conference room",
-        "es": "Localice la consola principal para la sala de conferencias del 3er piso"
+        "en": "Locate the Main Console for the Dining Room area",
+        "es": "Localice la consola principal para el área del comedor"
       },
       "steps": [
         {
           "instruction": {
-            "en": "You can find the main console atop the center table. Looks something like this:",
-            "es": "Puede encontrar la consola principal encima de la mesa central. Se ve algo así:"
+            "en": "Let's find the main console and reset the system. It is hidden behind a panel in the hallway.",
+            "es": "Busquemos la consola principal y reiniciemos el sistema. Está oculta detrás de un panel en el pasillo."
           },
-          "image": "3rdFL.MainConsole.jpg",
+          "video_url": "https://drive.google.com/file/d/1ez9qDG2EgqrAqvon3063yk5eI1G1ZzQI/view?usp=sharing",
           "alt": {
-            "en": "Main Console Unit",
-            "es": "Unidad de consola principal"
+            "en": "Video showing how to shut down the Dining Room system",
+            "es": "Video que muestra cómo apagar el sistema del comedor"
           }
         },
         {
           "instruction": {
-            "en": "Let's start from scratch, try to reset the console to start from the home screen",
-            "es": "Comencemos desde cero, intente restablecer la consola para comenzar desde la pantalla de inicio"
+            "en": "This should bring main TV scrim up. To start, touch the panel screen and first make sure it is set to the Dining Room Area.",
+            "es": "Esto debería subir la pantalla de proyección de la TV principal. Para comenzar, toque la pantalla del panel y primero asegúrese de que esté configurado en el Área del Comedor."
           },
-          "video_url": "https://drive.google.com/file/d/1jymjsIeu7fXVOBk7Qbj5rCuKJkXFZxGu/view?usp=sharing",
+          "image": "DinRoom.MainConsole.DiningRoomInput.JPG",
           "alt": {
-            "en": "Video showing how to exit out of device mode and return to HOME",
-            "es": "Video que muestra cómo salir del modo dispositivo y regresar a HOME"
+            "en": "Shows the button for Dining Room Input Selection on the Main Console",
+            "es": "Muestra el botón para la Selección de Entrada del Comedor en la Consola Principal"
           }
         },
         {
           "instruction": {
-            "en": "Next, let's activate 'Device Mode'",
-            "es": "A continuación, activemos el 'Modo Dispositivo'"
+            "en": "Next, let's activate the 'Wallplate' input. This should now bring down the Main TV scrim",
+            "es": "A continuación, activemos la entrada 'Wallplate' (Placa de Pared). Esto ahora debería bajar la pantalla de proyección de la TV principal"
           },
-          "image": "3rdFL.Main.DeviceMode.jpg",
+          "image": "DinRoom.MainConsole.WallplateInput.JPG",
           "alt": {
-            "en": "Shows the button for Device Mode on the Main Console",
-            "es": "Muestra el botón para el Modo Dispositivo en la Consola Principal"
+            "en": "Shows the button for Wallplate input on the Main Console",
+            "es": "Muestra el botón para la entrada Wallplate en la Consola Principal"
           }
         },
         {
           "instruction": {
-            "en": "If done successfully, your Main Console panel should look like this:",
-            "es": "Si se hizo correctamente, su panel de la Consola Principal debería verse así:"
+            "en": "Then, switch the input to 'Sonos 2'. This is to make sure the audio is working correctly.",
+            "es": "Luego, cambie la entrada a 'Sonos 2'. Esto es para asegurarse de que el audio funcione correctamente."
           },
-          "image": "3rdFL.Main.DeviceModeOn.jpg",
+          "image": "DinRoom.MainConsole.Sonos2InputON.JPG",
           "alt": {
-            "en": "What the Main Console looks like after activating Device Mode",
-            "es": "Cómo se ve la Consola Principal después de activar el Modo Dispositivo"
+            "en": "Shows the button for the Sonos 2 input on the Main Console",
+            "es": "Muestra el botón para la entrada Sonos 2 en la Consola Principal"
           }
         },
         {
           "instruction": {
-            "en": "Now, let's turn our attention to the Main TV",
-            "es": "Ahora, centrémonos en la TV principal"
+            "en": "Now, let's turn our attention to the Main TV scrim. Should be down and looking something like this",
+            "es": "Ahora, centrémonos en la pantalla de proyección de la TV principal. Debería estar abajo y verse algo así"
           },
-          "image": "3rdFL.MainTV.jpg",
+          "image": "DinRoom.MainTV.DOWN.JPG",
           "alt": {
-            "en": "Picture showing the main TV off",
-            "es": "Imagen que muestra la TV principal apagada"
+            "en": "Picture showing the main TV scrim down",
+            "es": "Imagen que muestra la pantalla de proyección de la TV principal bajada"
           }
         },
         {
           "instruction": {
-            "en": "Is the TV on? If not, try to locate the remote to turn it on! The remote should something like this:",
-            "es": "¿Está encendida la TV? ¡Si no, intente localizar el control remoto para encenderla! El control remoto debería verse así:"
+            "en": "Now, all we need is the Dining Room area keyboard. It usually is present inside of the Dining Room Kitchen area. Check either behind the microwave or in the first cabinet, behind the microwave area.",
+            "es": "Ahora, todo lo que necesitamos es el teclado del área del comedor. Por lo general, está presente dentro del área de la cocina del comedor. Busque detrás del microondas o en el primer gabinete, detrás del área del microondas."
           },
-          "image": "3rdFL.MainTV.Remote.jpg",
+          "image": "DinRoom.DinRoomKeyboard.JPG",
           "alt": {
-            "en": "Picture of the Samsung TV remote for TV",
-            "es": "Imagen del control remoto de la TV Samsung"
+            "en": "Picture of the QNS Dining Room Keyboard.",
+            "es": "Imagen del teclado del comedor de QNS."
           }
         },
         {
           "instruction": {
-            "en": "At your own pace, turn the TV on",
-            "es": "A su propio ritmo, encienda la TV"
+            "en": "Make sure the keyboard is turned on!",
+            "es": "¡Asegúrese de que el teclado esté encendido!"
           },
-          "image": "3rdFL.MainTV.ON.jpg",
+          "image": "DinRoom.DinRoomKeyboard.JPG",
           "alt": {
-            "en": "Pic showing the Main TV On",
-            "es": "Imagen que muestra la TV principal encendida"
+            "en": "Pic showing the keyboard switch set to on",
+            "es": "Imagen que muestra el interruptor del teclado en encendido"
           }
-        },
-        {
-          "instruction": {
-            "en": "Now, let's locate our keyboard and mouse. They normally exist on the same shared table in the middle of the room:",
-            "es": "Ahora, localicemos nuestro teclado y mouse. Normalmente están en la misma mesa compartida en el centro de la sala:"
-          },
-          "image": "3rdFL.Keyboard.Mouse.jpg",
-          "alt": {
-            "en": "Pic of the Keyboard and Mouse for the 3rd Fl Conference room",
-            "es": "Imagen del teclado y mouse para la sala de conferencias del 3er piso"
-          }
-        },
-        {
-          "instruction": {
-            "en": "Make sure both devices are on!",
-            "es": "¡Asegúrese de que ambos dispositivos estén encendidos!"
-          },
-          "images": [
-            {
-              "src": "3rdFL.MainKeyboard.ON.jpg",
-              "alt": {
-                "en": "Pic showing the switch for Keyboard",
-                "es": "Imagen que muestra el interruptor del teclado"
-              }
-            },
-            {
-              "src": "3rdFL.MainMouseON.jpg",
-              "alt": {
-                "en": "Pic showing the switch for Mouse",
-                "es": "Imagen que muestra el interruptor del mouse"
-              }
-            }
-          ]
         },
         {
           "instruction": {
             "en": "Try moving the mouse around or click on keys on the keyboard. Now click on 'Other User' on the bottom left and sign into your profile!",
             "es": "Intente mover el mouse o presione teclas en el teclado. ¡Ahora haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
           },
-          "image": "3rdFL.MainTV.Finish.jpg",
+          "image": "DinRoom.MainTV.JPG",
           "alt": {
             "en": "Pic displaying the 'Other Users' log in screen on the Main TV",
             "es": "Imagen que muestra la pantalla de inicio de sesión de 'Otros usuarios' en la TV principal"
