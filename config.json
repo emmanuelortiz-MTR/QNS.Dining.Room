@@ -1,0 +1,134 @@
+{
+  "options": [
+    {
+      "id": "start",
+      "title": {
+        "en": "Locate the Main Console for the 3rd Floor Conference room",
+        "es": "Localice la consola principal para la sala de conferencias del 3er piso"
+      },
+      "steps": [
+        {
+          "instruction": {
+            "en": "You can find the main console atop the center table. Looks something like this:",
+            "es": "Puede encontrar la consola principal encima de la mesa central. Se ve algo así:"
+          },
+          "image": "3rdFL.MainConsole.jpg",
+          "alt": {
+            "en": "Main Console Unit",
+            "es": "Unidad de consola principal"
+          }
+        },
+        {
+          "instruction": {
+            "en": "Let's start from scratch, try to reset the console to start from the home screen",
+            "es": "Comencemos desde cero, intente restablecer la consola para comenzar desde la pantalla de inicio"
+          },
+          "video_url": "https://drive.google.com/file/d/1jymjsIeu7fXVOBk7Qbj5rCuKJkXFZxGu/view?usp=sharing",
+          "alt": {
+            "en": "Video showing how to exit out of device mode and return to HOME",
+            "es": "Video que muestra cómo salir del modo dispositivo y regresar a HOME"
+          }
+        },
+        {
+          "instruction": {
+            "en": "Next, let's activate 'Device Mode'",
+            "es": "A continuación, activemos el 'Modo Dispositivo'"
+          },
+          "image": "3rdFL.Main.DeviceMode.jpg",
+          "alt": {
+            "en": "Shows the button for Device Mode on the Main Console",
+            "es": "Muestra el botón para el Modo Dispositivo en la Consola Principal"
+          }
+        },
+        {
+          "instruction": {
+            "en": "If done successfully, your Main Console panel should look like this:",
+            "es": "Si se hizo correctamente, su panel de la Consola Principal debería verse así:"
+          },
+          "image": "3rdFL.Main.DeviceModeOn.jpg",
+          "alt": {
+            "en": "What the Main Console looks like after activating Device Mode",
+            "es": "Cómo se ve la Consola Principal después de activar el Modo Dispositivo"
+          }
+        },
+        {
+          "instruction": {
+            "en": "Now, let's turn our attention to the Main TV",
+            "es": "Ahora, centrémonos en la TV principal"
+          },
+          "image": "3rdFL.MainTV.jpg",
+          "alt": {
+            "en": "Picture showing the main TV off",
+            "es": "Imagen que muestra la TV principal apagada"
+          }
+        },
+        {
+          "instruction": {
+            "en": "Is the TV on? If not, try to locate the remote to turn it on! The remote should something like this:",
+            "es": "¿Está encendida la TV? ¡Si no, intente localizar el control remoto para encenderla! El control remoto debería verse así:"
+          },
+          "image": "3rdFL.MainTV.Remote.jpg",
+          "alt": {
+            "en": "Picture of the Samsung TV remote for TV",
+            "es": "Imagen del control remoto de la TV Samsung"
+          }
+        },
+        {
+          "instruction": {
+            "en": "At your own pace, turn the TV on",
+            "es": "A su propio ritmo, encienda la TV"
+          },
+          "image": "3rdFL.MainTV.ON.jpg",
+          "alt": {
+            "en": "Pic showing the Main TV On",
+            "es": "Imagen que muestra la TV principal encendida"
+          }
+        },
+        {
+          "instruction": {
+            "en": "Now, let's locate our keyboard and mouse. They normally exist on the same shared table in the middle of the room:",
+            "es": "Ahora, localicemos nuestro teclado y mouse. Normalmente están en la misma mesa compartida en el centro de la sala:"
+          },
+          "image": "3rdFL.Keyboard.Mouse.jpg",
+          "alt": {
+            "en": "Pic of the Keyboard and Mouse for the 3rd Fl Conference room",
+            "es": "Imagen del teclado y mouse para la sala de conferencias del 3er piso"
+          }
+        },
+        {
+          "instruction": {
+            "en": "Make sure both devices are on!",
+            "es": "¡Asegúrese de que ambos dispositivos estén encendidos!"
+          },
+          "images": [
+            {
+              "src": "3rdFL.MainKeyboard.ON.jpg",
+              "alt": {
+                "en": "Pic showing the switch for Keyboard",
+                "es": "Imagen que muestra el interruptor del teclado"
+              }
+            },
+            {
+              "src": "3rdFL.MainMouseON.jpg",
+              "alt": {
+                "en": "Pic showing the switch for Mouse",
+                "es": "Imagen que muestra el interruptor del mouse"
+              }
+            }
+          ]
+        },
+        {
+          "instruction": {
+            "en": "Try moving the mouse around or click on keys on the keyboard. Now click on 'Other User' on the bottom left and sign into your profile!",
+            "es": "Intente mover el mouse o presione teclas en el teclado. ¡Ahora haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
+          },
+          "image": "3rdFL.MainTV.Finish.jpg",
+          "alt": {
+            "en": "Pic displaying the 'Other Users' log in screen on the Main TV",
+            "es": "Imagen que muestra la pantalla de inicio de sesión de 'Otros usuarios' en la TV principal"
+          }
+        }
+      ]
+    }
+  ]
+}
