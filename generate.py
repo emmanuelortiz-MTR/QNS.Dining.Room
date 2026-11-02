@@ -93,7 +93,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
         }}
         .lang-toggle {{
             position: fixed;
-            top: 20px;
+            bottom: 20px;
             right: 20px;
             background: #28a745;
             color: white;
@@ -119,7 +119,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <button class="lang-toggle" onclick="toggleLanguage()">🇨🇴 Español</button>
+    <button class="lang-toggle" onclick="toggleLanguage()">Español</button>
     <h1>
         <span class="lang-en active">So you want use the Dining Room shared space?</span>
         <span class="lang-es">Entonces, ¿quieres usar el espacio de comedor compartido?</span>
@@ -134,10 +134,10 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
             const toggleBtn = document.querySelector('.lang-toggle');
             if (currentLang === 'en') {{
                 currentLang = 'es';
-                toggleBtn.textContent = '🇺🇸 English';
+                toggleBtn.textContent = 'English';
             }} else {{
                 currentLang = 'en';
-                toggleBtn.textContent = '🇨🇴 Español';
+                toggleBtn.textContent = 'Español';
             }}
             updateLanguage(currentLang);
         }}
@@ -159,7 +159,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
             currentLang = savedLang;
             if (savedLang === 'es') {{
-                document.querySelector('.lang-toggle').textContent = '🇺🇸 English';
+                document.querySelector('.lang-toggle').textContent = 'English';
             }}
             updateLanguage(savedLang);
         }});
@@ -188,7 +188,7 @@ STEP_TEMPLATE = """<!DOCTYPE html>
         }}
         .lang-toggle {{
             position: fixed;
-            top: 20px;
+            bottom: 20px;
             right: 20px;
             background: #28a745;
             color: white;
@@ -220,7 +220,7 @@ STEP_TEMPLATE = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <button class="lang-toggle" onclick="toggleLanguage()">🇨🇴 Español</button>
+    <button class="lang-toggle" onclick="toggleLanguage()">Español</button>
     <h1>
         <span class="lang-en active">{option_title_en}</span>
         <span class="lang-es">{option_title_es}</span>
@@ -244,10 +244,10 @@ STEP_TEMPLATE = """<!DOCTYPE html>
             const toggleBtn = document.querySelector('.lang-toggle');
             if (currentLang === 'en') {{
                 currentLang = 'es';
-                toggleBtn.textContent = '🇺🇸 English';
+                toggleBtn.textContent = 'English';
             }} else {{
                 currentLang = 'en';
-                toggleBtn.textContent = '🇨🇴 Español';
+                toggleBtn.textContent = 'Español';
             }}
             updateLanguage(currentLang);
         }}
@@ -268,7 +268,7 @@ STEP_TEMPLATE = """<!DOCTYPE html>
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
             currentLang = savedLang;
             if (savedLang === 'es') {{
-                document.querySelector('.lang-toggle').textContent = '🇺🇸 English';
+                document.querySelector('.lang-toggle').textContent = 'English';
             }}
             updateLanguage(savedLang);
         }});
@@ -288,7 +288,7 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
         .button {{ display: inline-block; padding: 1rem 2rem; margin: 1rem 0; background: #28a745; color: white; text-decoration: none; border-radius: 8px; }}
         .lang-toggle {{
             position: fixed;
-            top: 20px;
+            bottom: 20px;
             right: 20px;
             background: #28a745;
             color: white;
@@ -314,7 +314,7 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <button class="lang-toggle" onclick="toggleLanguage()">🇨🇴 Español</button>
+    <button class="lang-toggle" onclick="toggleLanguage()">Español</button>
     <h1>
         <span class="lang-en active">🎉 Good job! 🎉</span>
         <span class="lang-es">🎉 ¡Buen trabajo! 🎉</span>
@@ -334,10 +334,10 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
             const toggleBtn = document.querySelector('.lang-toggle');
             if (currentLang === 'en') {{
                 currentLang = 'es';
-                toggleBtn.textContent = '🇺🇸 English';
+                toggleBtn.textContent = 'English';
             }} else {{
                 currentLang = 'en';
-                toggleBtn.textContent = '🇨🇴 Español';
+                toggleBtn.textContent = 'Español';
             }}
             updateLanguage(currentLang);
         }}
@@ -356,7 +356,7 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
             currentLang = savedLang;
             if (savedLang === 'es') {{
-                document.querySelector('.lang-toggle').textContent = '🇺🇸 English';
+                document.querySelector('.lang-toggle').textContent = 'English';
             }}
             updateLanguage(savedLang);
         }});
