@@ -73,6 +73,7 @@ else:
     print("⚠️  Warning: 'static/' folder not found – no media will be copied.")
 
 # ---------- HTML Templates ----------
+# Notice the cookie clearing script is ONLY in the INDEX_TEMPLATE
 INDEX_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
@@ -171,15 +172,10 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+# Notice the cookie clearing script is REMOVED from here
 STEP_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
-    <script>
-        document.cookie.split(";").forEach(function(c) {{ 
-            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
-        }});
-        localStorage.removeItem('preferredLanguage');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Step {step_num} of {total_steps} – {option_title_en}</title>
@@ -244,7 +240,10 @@ STEP_TEMPLATE = """<!DOCTYPE html>
     <div class="nav">
         {prev_link}
         {next_link}
-        <a href="index.html">🏠 Home</a>
+        <a href="index.html">
+            <span class="lang-en active">🏠 Home</span>
+            <span class="lang-es">🏠 Inicio</span>
+        </a>
     </div>
     <script>
         let currentLang = 'en';
@@ -286,15 +285,10 @@ STEP_TEMPLATE = """<!DOCTYPE html>
 </html>
 """
 
+# Notice the cookie clearing script is REMOVED from here
 CONGRATS_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
-    <script>
-        document.cookie.split(";").forEach(function(c) {{ 
-            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
-        }});
-        localStorage.removeItem('preferredLanguage');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Congratulations!</title>
@@ -435,12 +429,12 @@ for opt in config.get("options", []):
         # Generate media HTML (use 'en' for the alt text since we show both languages in the image)
         media = generate_media_html(step, 'en')
 
-        # Navigation links (same for both languages)
-        prev_link = f'<a href="{opt["id"]}_step{i-1}.html" class="button">⬅ Previous</a>' if i > 1 else ""
+        # Navigation links (now bilingual)
+        prev_link = f'<a href="{opt["id"]}_step{i-1}.html" class="button"><span class="lang-en active">⬅ Previous</span><span class="lang-es">⬅ Anterior</span></a>' if i > 1 else ""
         if i < total:
-            next_link = f'<a href="{opt["id"]}_step{i+1}.html" class="button">Next ➔</a>'
+            next_link = f'<a href="{opt["id"]}_step{i+1}.html" class="button"><span class="lang-en active">Next ➔</span><span class="lang-es">Siguiente ➔</span></a>'
         else:
-            next_link = f'<a href="{opt["id"]}_congrats.html" class="button">Finish ➔</a>'
+            next_link = f'<a href="{opt["id"]}_congrats.html" class="button"><span class="lang-en active">Finish ➔</span><span class="lang-es">Finalizar ➔</span></a>'
 
         filename = f"{opt['id']}_step{i}.html"
         page = STEP_TEMPLATE.format(
