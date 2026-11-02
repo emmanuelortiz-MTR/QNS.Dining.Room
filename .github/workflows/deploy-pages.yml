@@ -34,6 +34,19 @@ jobs:
       - name: Generate site
         run: python generate.py
       
+      # --- NEW DEBUGGING STEP ---
+      - name: Debug - Check what was generated
+        run: |
+          echo "=== 1. Root Directory Contents ==="
+          ls -la
+          echo "=== 2. Is the static folder here? ==="
+          ls -la static/ || echo "NO STATIC FOLDER FOUND"
+          echo "=== 3. Is the output folder here? ==="
+          ls -la output/ || echo "NO OUTPUT FOLDER FOUND"
+          echo "=== 4. What is inside output/static/images? ==="
+          ls -la output/static/images/ || echo "NO IMAGES FOUND IN OUTPUT"
+      # --------------------------
+      
       - name: Setup Pages
         uses: actions/configure-pages@v5
       
