@@ -23,7 +23,7 @@
             "en": "This should bring main TV scrim up. To start, touch the panel screen and first make sure it is set to the Dining Room Area.",
             "es": "Esto debería subir la pantalla de proyección de la TV principal. Para comenzar, toque la pantalla del panel y primero asegúrese de que esté configurado en el Área del Comedor."
           },
-          "image": "DinRoom.MainConsole.DiningRoomInput.JPG",
+          "image": "DinRoom.MainConsole.DiningRoomInput.jpg",
           "alt": {
             "en": "Shows the button for Dining Room Input Selection on the Main Console",
             "es": "Muestra el botón para la Selección de Entrada del Comedor en la Consola Principal"
@@ -34,7 +34,7 @@
             "en": "Next, let's activate the 'Wallplate' input. This should now bring down the Main TV scrim",
             "es": "A continuación, activemos la entrada 'Wallplate' (Placa de Pared). Esto ahora debería bajar la pantalla de proyección de la TV principal"
           },
-          "image": "DinRoom.MainConsole.WallplateInput.JPG",
+          "image": "DinRoom.MainConsole.WallplateInput.jpg",
           "alt": {
             "en": "Shows the button for Wallplate input on the Main Console",
             "es": "Muestra el botón para la entrada Wallplate en la Consola Principal"
@@ -45,7 +45,7 @@
             "en": "Then, switch the input to 'Sonos 2'. This is to make sure the audio is working correctly.",
             "es": "Luego, cambie la entrada a 'Sonos 2'. Esto es para asegurarse de que el audio funcione correctamente."
           },
-          "image": "DinRoom.MainConsole.Sonos2InputON.JPG",
+          "image": "DinRoom.MainConsole.Sonos2InputON.jpg",
           "alt": {
             "en": "Shows the button for the Sonos 2 input on the Main Console",
             "es": "Muestra el botón para la entrada Sonos 2 en la Consola Principal"
@@ -56,7 +56,7 @@
             "en": "Now, let's turn our attention to the Main TV scrim. Should be down and looking something like this",
             "es": "Ahora, centrémonos en la pantalla de proyección de la TV principal. Debería estar abajo y verse algo así"
           },
-          "image": "DinRoom.MainTV.DOWN.JPG",
+          "image": "DinRoom.MainTV.DOWN.jpg",
           "alt": {
             "en": "Picture showing the main TV scrim down",
             "es": "Imagen que muestra la pantalla de proyección de la TV principal bajada"
@@ -67,7 +67,7 @@
             "en": "Now, all we need is the Dining Room area keyboard. It usually is present inside of the Dining Room Kitchen area. Check either behind the microwave or in the first cabinet, behind the microwave area.",
             "es": "Ahora, todo lo que necesitamos es el teclado del área del comedor. Por lo general, está presente dentro del área de la cocina del comedor. Busque detrás del microondas o en el primer gabinete, detrás del área del microondas."
           },
-          "image": "DinRoom.DinRoomKeyboard.JPG",
+          "image": "DinRoom.DinRoomKeyboard.jpg",
           "alt": {
             "en": "Picture of the QNS Dining Room Keyboard.",
             "es": "Imagen del teclado del comedor de QNS."
@@ -78,7 +78,7 @@
             "en": "Make sure the keyboard is turned on!",
             "es": "¡Asegúrese de que el teclado esté encendido!"
           },
-          "image": "DinRoom.MainKeyboard.ON.JPG",
+          "image": "DinRoom.MainKeyboard.ON.jpg",
           "alt": {
             "en": "Pic showing the keyboard switch set to on",
             "es": "Imagen que muestra el interruptor del teclado en encendido"
@@ -89,7 +89,7 @@
             "en": "Try moving the mouse around or click on keys on the keyboard. Now click on 'Other User' on the bottom left and sign into your profile!",
             "es": "Intente mover el mouse o presione teclas en el teclado. ¡Ahora haga clic en 'Otro usuario' en la parte inferior izquierda e inicie sesión en su perfil!"
           },
-          "image": "DinRoom.MainTV.JPG",
+          "image": "DinRoom.MainTV.jpg",
           "alt": {
             "en": "Pic displaying the 'Other Users' log in screen on the Main TV",
             "es": "Imagen que muestra la pantalla de inicio de sesión de 'Otros usuarios' en la TV principal"
