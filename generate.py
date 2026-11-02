@@ -76,6 +76,12 @@ else:
 INDEX_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
+    <script>
+        document.cookie.split(";").forEach(function(c) { 
+            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
+        });
+        localStorage.removeItem('preferredLanguage');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3rd Fl QNS Shared Space Guide</title>
@@ -143,18 +149,15 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
         }}
         
         function updateLanguage(lang) {{
-            // Update all elements with language-specific content
             document.querySelectorAll('.lang-en, .lang-es').forEach(el => {{
                 el.classList.remove('active');
                 if (el.classList.contains(`lang-${{lang}}`)) {{
                     el.classList.add('active');
                 }}
             }});
-            // Store preference
             localStorage.setItem('preferredLanguage', lang);
         }}
         
-        // Load saved language preference
         document.addEventListener('DOMContentLoaded', function() {{
             const savedLang = localStorage.getItem('preferredLanguage') || 'en';
             currentLang = savedLang;
@@ -171,6 +174,12 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 STEP_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
+    <script>
+        document.cookie.split(";").forEach(function(c) { 
+            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
+        });
+        localStorage.removeItem('preferredLanguage');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Step {step_num} of {total_steps} – {option_title_en}</title>
@@ -280,6 +289,12 @@ STEP_TEMPLATE = """<!DOCTYPE html>
 CONGRATS_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
+    <script>
+        document.cookie.split(";").forEach(function(c) { 
+            document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
+        });
+        localStorage.removeItem('preferredLanguage');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Congratulations!</title>
