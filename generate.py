@@ -77,9 +77,9 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
     <script>
-        document.cookie.split(";").forEach(function(c) { 
+        document.cookie.split(";").forEach(function(c) {{ 
             document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
-        });
+        }});
         localStorage.removeItem('preferredLanguage');
     </script>
     <meta charset="UTF-8">
@@ -175,9 +175,9 @@ STEP_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
     <script>
-        document.cookie.split(";").forEach(function(c) { 
+        document.cookie.split(";").forEach(function(c) {{ 
             document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
-        });
+        }});
         localStorage.removeItem('preferredLanguage');
     </script>
     <meta charset="UTF-8">
@@ -290,9 +290,9 @@ CONGRATS_TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
     <script>
-        document.cookie.split(";").forEach(function(c) { 
+        document.cookie.split(";").forEach(function(c) {{ 
             document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
-        });
+        }});
         localStorage.removeItem('preferredLanguage');
     </script>
     <meta charset="UTF-8">
