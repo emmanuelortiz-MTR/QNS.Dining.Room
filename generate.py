@@ -50,13 +50,25 @@ except json.JSONDecodeError as e:
 shutil.rmtree(OUTPUT_DIR, ignore_errors=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Copy static files if the folder exists (UPDATED FOR RELIABILITY)
+# Copy static files securely
 if os.path.exists(STATIC_SRC):
-    try:
-        shutil.copytree(STATIC_SRC, os.path.join(OUTPUT_DIR, "static"), dirs_exist_ok=True)
-        print("✅ Static files copied successfully.")
-    except Exception as e:
-        print(f"❌ Failed to copy static files: {e}")
+    dest_static = os.path.join(OUTPUT_DIR, "static")
+    os.makedirs(dest_static, exist_ok=True)
+    
+    # Manually walk through the folders and copy files
+    for root, dirs, files in os.walk(STATIC_SRC):
+        # Figure out the destination path
+        rel_path = os.path.relpath(root, STATIC_SRC)
+        dest_dir = os.path.join(dest_static, rel_path) if rel_path != "." else dest_static
+        
+        os.makedirs(dest_dir, exist_ok=True)
+        
+        for file in files:
+            src_file = os.path.join(root, file)
+            dest_file = os.path.join(dest_dir, file)
+            shutil.copy2(src_file, dest_file)
+            
+    print("✅ Static files and images copied successfully.")
 else:
     print("⚠️  Warning: 'static/' folder not found – no media will be copied.")
 
